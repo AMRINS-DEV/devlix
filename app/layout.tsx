@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://devlix.agency"),
+  metadataBase: new URL("https://devlix.digital"),
   title: "Devlix | Coming Soon",
   description: "Devlix is a digital agency based in Rabat, Morocco.",
   openGraph: {
