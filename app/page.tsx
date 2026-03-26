@@ -72,7 +72,7 @@ export default function Home() {
 
             <div className="animate-fade-up delay-420 flex flex-wrap gap-4 pt-2">
               <a
-                href="mailto:contact@devlix.agency"
+                href="mailto:contact@devlix.digital"
                 className="inline-flex items-center justify-center rounded-full border border-white/35 bg-white px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-[#7a0000] transition hover:bg-[#ffe8e8]"
               >
                 Start a Project
