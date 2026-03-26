@@ -15,8 +15,22 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://devlix.agency"),
   title: "Devlix | Coming Soon",
   description: "Devlix is a digital agency based in Rabat, Morocco.",
+  openGraph: {
+    title: "Devlix | Coming Soon",
+    description: "Devlix is a digital agency based in Rabat, Morocco.",
+    type: "website",
+    images: [
+      {
+        url: "/og-logo.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Devlix logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
