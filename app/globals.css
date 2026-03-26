@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #090909;
+  --foreground: #f8f8f8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-outfit);
+  --font-mono: var(--font-space-grotesk);
+  --font-brand: var(--font-space-grotesk);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s ease-out both;
+}
+
+.animate-float-slow {
+  animation: float-slow 9s ease-in-out infinite;
+}
+
+.delay-120 {
+  animation-delay: 120ms;
+}
+
+.delay-220 {
+  animation-delay: 220ms;
+}
+
+.delay-320 {
+  animation-delay: 320ms;
+}
+
+.delay-420 {
+  animation-delay: 420ms;
+}
